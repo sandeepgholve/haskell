@@ -115,3 +115,17 @@ multOfList = foldl (*) 1 [2, 3, 4, 5]
 pow3List = [3^n | n <- [1..10]]
 
 multTable = [[x * y | y <- [1..10]] | x <- [1..10]]
+
+{-
+  - Tuples Section
+-}
+sandeep = ("Sandeep Gholve", 34)
+anita = ("Anita Gholve", 30)
+
+sandeepName = fst sandeep
+sandeepAge = snd sandeep
+
+names = ["Sandeep", "Anita"]
+addresses = ["Berlin", "Pune"]
+nameAndAddresses = zip names addresses
+
