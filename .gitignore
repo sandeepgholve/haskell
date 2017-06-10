@@ -4,5 +4,6 @@
 # Unignore all with extensions
 !*.hs
 !.gitignore
+!.vimrc
 !.vim/
 
